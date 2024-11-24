@@ -7,24 +7,13 @@ namespace MyFirstProgram
     internal class Helpers
     {
         internal static List<Game> games = new List<Game>
-                {
-        new Game { Date = DateTime.Now.AddDays(1), Type = GameType.Addition, score = 5 },
-        new Game { Date = DateTime.Now.AddDays(2), Type = GameType.Multiplication, score = 4 },
-        new Game { Date = DateTime.Now.AddDays(3), Type = GameType.Division, score = 4 },
-        new Game { Date = DateTime.Now.AddDays(4), Type = GameType.Subtraction, score = 3 },
-        new Game { Date = DateTime.Now.AddDays(5), Type = GameType.Addition, score = 1 },
-        new Game { Date = DateTime.Now.AddDays(6), Type = GameType.Multiplication, score = 2 },
-        new Game { Date = DateTime.Now.AddDays(7), Type = GameType.Division, score = 3 },
-        new Game { Date = DateTime.Now.AddDays(8), Type = GameType.Subtraction, score = 4 },
-        new Game { Date = DateTime.Now.AddDays(9), Type = GameType.Addition, score = 4 },
-        new Game { Date = DateTime.Now.AddDays(10), Type = GameType.Multiplication, score = 1 },
-        new Game { Date = DateTime.Now.AddDays(11), Type = GameType.Subtraction, score = 0 },
-        new Game { Date = DateTime.Now.AddDays(12), Type = GameType.Division, score = 2 },
-        new Game { Date = DateTime.Now.AddDays(13), Type = GameType.Subtraction, score = 5 },
-    };
+        {
+        };
+      
+    
         internal static void PrintGames()
         {
-            //var gamesToPrint = games.Where(x => x.Date > new DateTime(2022, 08, 09)).OrderByDescending(x => x.score);
+            
 
             Console.Clear();    
             Console.WriteLine("Games History");
