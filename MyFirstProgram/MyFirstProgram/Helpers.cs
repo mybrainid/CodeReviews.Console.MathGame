@@ -21,7 +21,7 @@ namespace MyFirstProgram
             foreach (var game in games)
             {
 
-                Console.WriteLine($"{game.Date} - {game.Type} : {game.score} pts");
+                Console.WriteLine($"{game.Date} - {game.Type} : {game.Score} pts");
             }
             Console.WriteLine("------------------\n");
             Console.WriteLine("Press any key to return to Main Menu");
@@ -56,7 +56,7 @@ namespace MyFirstProgram
             games.Add(new Game
             {
                 Date = DateTime.Now,
-                score = gameScore,
+                Score = gameScore,
                 Type = gameType
             });
         }
